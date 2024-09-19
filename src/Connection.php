@@ -58,7 +58,7 @@ class Connection extends Program
      */
     public function getRecentBlockhash(?Commitment $commitment = null): array
     {
-        return $this->client->call('getRecentBlockhash', array_filter([$commitment]))['value'];
+        return $this->client->call('getLatestBlockhash', array_filter([$commitment]))['value'];
     }
 
     /**
