@@ -1,5 +1,6 @@
 {
     "name": "tightenco/solana-php-sdk",
+    "version": "1.0.0",
     "description": "Solana PHP SDK",
     "keywords": [
         "tightenco",
